@@ -1,0 +1,282 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+        body{
+            background-color: #71172A;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            height: 100vh;
+            background-image: url("https://i.imgur.com/2bqBChr.png");
+            background-position:center;
+            background-size: cover;
+        }
+        .imgs{
+            position: relative;
+            top: 140px;
+            left: -200px;
+            height: 100vh;
+        }
+        .setup-img{
+            position: relative;
+
+        }
+        .setup-img img{
+            position: absolute;
+            width: 320px;
+        }
+        .setup-img img:nth-child(1){
+            top: -170px;
+            animation: Pops 4.5s ease forwards;
+        }
+        .setup-img img:nth-child(2){
+            animation: Pops 5.5s ease forwards;
+        }
+        .setup-img img:nth-child(3){
+            right: -210px;
+            top: 100px;
+            animation: Pops 5.5s ease forwards;
+        }
+        .setup-img img:nth-child(4){
+            left: 155px;
+            animation: Pops 5.5s ease forwards;
+        }
+        .setup-img img:nth-child(5){
+            width: 420px;
+            top: 120px;
+            animation: Pops 5.5s ease forwards;
+        }
+        .setup-img img:nth-child(6){
+            width: 310px;
+            top: 120px;
+            left: 180px;
+           animation: Pops 5.5s ease forwards; 
+        }
+        .setup-img img:nth-child(7){
+            width: 310px;
+            top: 240px;
+            left: 75px;
+            animation: Pops 5.5s ease forwards;
+        
+        }
+        .setup-img img:nth-child(8){
+            width: 280px;
+            top: 270px;
+            left: -65px;
+            animation: Pops 5.5s ease forwards;
+        }
+        .setup-img img:nth-child(9){
+            width: 210px;
+            top: 280px;
+            left: 255px;
+            animation: Pops 5.5s ease forwards;
+        }
+        .setup-img img:nth-child(10){
+            width: 270px;
+            top:-95px;
+            left: -140px;
+            animation: Pops 5.5s ease forwards;
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            justify-items: center;
+            position: relative;
+        }
+
+        @keyframes Pops {
+            0%{
+                scale: 0;
+
+            }
+            100%{
+
+                scale: 1;
+
+            }
+        }
+        nav {
+  display: flex;
+  justify-content: space-between; /* Distribui os itens com espaço entre eles */
+  align-items: center; /* Alinha os itens verticalmente ao centro */
+}
+        nav img{
+            width: 100px;
+            align-self: flex-start;
+        }
+        nav ul, li{
+            display: inline-block;
+            align-items: end;
+            justify-content: end;
+            justify-items: end;
+
+        }
+        nav li{
+            padding: 12px;
+            color: #fff;
+    font-family: "Mochiy Pop P One", sans-serif;
+  font-weight: 300;
+  font-style: normal;;
+  font-size: 16px;
+        }
+        a:hover{
+            color: #2EBDB3;
+            font-size: 18px;
+
+        }
+        a:visited{
+            color: #EF407E;
+        }
+        a {
+            color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1); /* Escala inicial */
+  }
+  50% {
+    transform: scale(1.1); /* Escala aumentada */
+  }
+  100% {
+    transform: scale(1); /* Retorno à escala inicial */
+  }
+}
+nav img{
+    animation: pulse 2s infinite alternate; /* Aplica a animação de pulsar */
+}
+a:hover {
+ 
+}
+
+@font-face {
+    font-family: 'njnaruto';
+    src: url("ninja_naruto/njnaruto.ttf");
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+
+}
+.information p{
+    position: relative;
+    top: -60;
+    text-align: center;
+
+    color: #fff;
+    font-family: "Mochiy Pop P One", sans-serif;
+  font-weight: 300;
+  font-style: normal;;
+  font-size: 16px;
+  text-align: justify;
+}
+.information h1{
+    font-family: njnaruto;
+    text-align: center;
+    color: #EC7603;
+}
+.middle{
+    max-width: 1250px;
+}
+dt{
+    font-family: njnaruto;
+    color: #EC7603;
+    font-size: 25px;
+
+}
+dd{
+    color: #fff;
+    font-family: "Mochiy Pop P One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.membros span{
+    background-color: #7968AA;
+}
+.group-imgs{
+
+
+    border: 1px solid rgb(151, 3, 3);
+    max-width: 720px;
+    margin: 1%;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 13px 20px 20px 2px rgba(0,0,0,0.61);
+
+
+}
+
+.group-imgs img{
+    width: 240px;
+}
+.kunai{
+    width: 90px!important;
+}
+.group-imgs p{
+    color: #fff;
+    font-family: "Mochiy Pop P One", sans-serif;
+  font-weight: 300;
+  font-style: normal;;
+  font-size: 16px;
+
+}
+.member-information{
+
+   
+}
+.membros{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+footer h2{
+    text-align: center;
+    font-family: njnaruto;
+    color: #EC7603;
+    font-size: 25px;
+}
+
+.netflix{
+    width: 140px;
+}
+.prime-video{
+    width: 160px;
+}
+.crunchy{
+    width: 120px;
+}
+
+.streamers-img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+
+}
+.footer-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.streamers-img img{
+   margin-left: 10%;
+
+}
